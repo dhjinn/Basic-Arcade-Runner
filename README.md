@@ -1,7 +1,7 @@
 # Dodgy - Basic Arcade Runner
 
-## Created by: Derek Jin
-## Created in Unity, Scripting in C#
+Created by: Derek Jin
+Created in Unity, Scripting in C#
 (based off of the example game developed by Brackeys)
 
 ### Version 1.0:
