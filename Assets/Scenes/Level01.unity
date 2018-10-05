@@ -258,6 +258,18 @@ Prefab:
       propertyPath: obsDist
       value: 40
       objectReference: {fileID: 0}
+    - target: {fileID: 114269830875923164, guid: ef8e451f9264d614e9195e2fe376c20e,
+        type: 2}
+      propertyPath: MidObstacle
+      value: 
+      objectReference: {fileID: 1138458348085268, guid: 9b96eb569878956449e2ba9b00286d3d,
+        type: 2}
+    - target: {fileID: 114269830875923164, guid: ef8e451f9264d614e9195e2fe376c20e,
+        type: 2}
+      propertyPath: HighObstacle
+      value: 
+      objectReference: {fileID: 1589967031745776, guid: e640a40de0bd6254d8b6ffe3e413831d,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ef8e451f9264d614e9195e2fe376c20e, type: 2}
   m_IsPrefabParent: 0
@@ -299,6 +311,37 @@ Prefab:
     - target: {fileID: 4829859022142776, guid: 01b3f1e2359e37142baf0b65320605db, type: 2}
       propertyPath: m_RootOrder
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114346733949721778, guid: 01b3f1e2359e37142baf0b65320605db,
+        type: 2}
+      propertyPath: jump
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114346733949721778, guid: 01b3f1e2359e37142baf0b65320605db,
+        type: 2}
+      propertyPath: groundCheck
+      value: 
+      objectReference: {fileID: 4397831782060990, guid: 740097254e85d1a4f9707ab218f7a189,
+        type: 2}
+    - target: {fileID: 114346733949721778, guid: 01b3f1e2359e37142baf0b65320605db,
+        type: 2}
+      propertyPath: jumpForce
+      value: 675
+      objectReference: {fileID: 0}
+    - target: {fileID: 114346733949721778, guid: 01b3f1e2359e37142baf0b65320605db,
+        type: 2}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1080715037}
+    - target: {fileID: 54598866401307502, guid: 01b3f1e2359e37142baf0b65320605db,
+        type: 2}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 54598866401307502, guid: 01b3f1e2359e37142baf0b65320605db,
+        type: 2}
+      propertyPath: m_Constraints
+      value: 112
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 01b3f1e2359e37142baf0b65320605db, type: 2}

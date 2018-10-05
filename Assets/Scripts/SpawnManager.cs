@@ -34,9 +34,15 @@ public class SpawnManager : MonoBehaviour {
 		int i = 1;
 
 		while (i < groundLength/obsDist) {
-			Vector3 randomPosition = new Vector3 (Random.Range(horizontalMin, horizontalMax), 
-			1, (position * groundLength) + (obsDist * i));
-			Instantiate(obstacle, randomPosition, Quaternion.identity);
+			Vector3 randomPosition1 = new Vector3 (Random.Range(horizontalMin, horizontalMax), 
+			1f, (position * groundLength) + (obsDist * i));
+			Instantiate(obstacle, randomPosition1, Quaternion.identity);
+			Vector3 randomPosition2 = new Vector3 (Random.Range(horizontalMin, horizontalMax), 
+			2.5f, (position * groundLength) + (obsDist * i));
+			Instantiate(obstacle, randomPosition2, Quaternion.identity);
+			Vector3 randomPosition3 = new Vector3 (Random.Range(horizontalMin, horizontalMax), 
+			4f, (position * groundLength) + (obsDist * i));
+			Instantiate(obstacle, randomPosition3, Quaternion.identity);
 			i++;
 		}
 	}
